@@ -12,6 +12,11 @@ project "Volk"
 		"volk.c"
 	}
 
+	includedirs
+	{
+		"%{IncludeDir.VulkanSDK}"
+	}
+
 	filter "system:linux"
 		pic "On"
 
